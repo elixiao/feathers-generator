@@ -1,13 +1,10 @@
 {
   "name": "feathers-generator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "generator for feathersjs application",
-  "main": "./bin/fg.js",
+  "main": "./bin/feathers-generator.js",
   "author": "elixiao",
   "license": "MIT",
-  "scripts": {
-    "fg": "node bin/fg"
-  },
   "devDependencies": {
     "eslint": "^3.19.0"
   }

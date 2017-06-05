@@ -3,21 +3,34 @@
 > generator for feathersjs application
 
 
-## usage
+## Install
+
+```bash
+npm install feathers-generator --save-dev
+yarn add feathers-generator --dev
+```
+
+
+## Usage
 
 add script to your package.json
 
 ```json
 "scripts": {
-  "fg": "node node_modules/feathers-generator"
+  "create": "feathers-generator"
 }
 ```
 
+use the following command to generate service:
+
 ```bash
-npm run fg user  
-npm run fg book
-npm run fg book.sort 
-npm run fg passport nodb
-npm run fg passport nodb path=passport force
-npm run fg passport.active nopre 
+npm run create user  # create user model and service
+npm run create book.sort  # create book-sort service
+npm run create passport nodb  # create passport service without database
+npm run create passport nodb path=passport force  # replace passport service with path=passport 
+npm run create passport.active nopre  # create passport/active service
 ```
+
+## License
+
+MIT
