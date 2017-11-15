@@ -6,29 +6,22 @@
 ## Install
 
 ```bash
-npm install feathers-generator --save-dev
-yarn add feathers-generator --dev
+npm install -g feathers-generator
+yarn global add feathers-generator
 ```
 
 
 ## Usage
 
-add script to your package.json
-
-```json
-"scripts": {
-  "create": "feathers-generator"
-}
-```
-
-use the following command to generate service:
+use the following command to generate app or services:
 
 ```bash
-npm run create user  # create user model and service
-npm run create book.sort  # create book-sort service
-npm run create passport nodb  # create passport service without database
-npm run create passport nodb path=passport force  # replace passport service with path=passport 
-npm run create passport.active nopre  # create passport/active service
+fea # create empty application
+fea user  # create user model and service
+fea book.sort  # create book-sort service
+fea passport nodb  # create passport service without database
+fea passport nodb path=passport force  # replace passport service with path=passport 
+fea passport.active nopre  # create passport/active service
 ```
 
 ## License

@@ -1,12 +1,12 @@
 {
   "name": "feathers-generator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "generator for feathersjs application",
   "main": "./bin/feathers-generator.js",
   "author": "elixiao",
   "license": "MIT",
   "bin": {
-    "feathers-generator": "./bin/feathers-generator.js"
+    "fea": "./bin/fea.js"
   },
   "devDependencies": {
     "eslint": "^3.19.0"
