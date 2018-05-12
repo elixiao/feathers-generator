@@ -43,5 +43,6 @@ class Feathers extends FeathersMongoose {
   }
 
 }
+
 Feathers.paginate = {default: 50, max: 200}
 module.exports = Feathers
