@@ -1,6 +1,6 @@
 {
   "name": "feathers-generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "generator for feathersjs application",
   "main": "./bin/feathers-generator.js",
   "author": "elixiao",
