@@ -1,4 +1,4 @@
-const Model = require('../../../models')
+const Feathers = require('../../feathers.class')
 
 class BookSort {
   constructor(options) {
@@ -27,7 +27,7 @@ class BookSort {
 }
 
 const BookSortInstance = new BookSort({
-  paginate: Model.paginate
+  paginate: Feathers.paginate
 })
 
 module.exports = BookSortInstance
